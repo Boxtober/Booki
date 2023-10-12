@@ -1,46 +1,68 @@
 .main-tag-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-  padding: 35px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    font-weight: 700;
+}
+.main-tag-container > p {
+    font-weight: 700;
 }
 body > div > main > div > p {
-  font-size: 18px;
-  font-weight: 700;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .tag-container {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.tag-col-row {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
 }
 
 .tag {
-  border-radius: 25px;
-  align-items: center;
-  background-color: none;
-  border: 2px solid #d9d9d9;
-  padding: 1rem;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+    border: 2px solid #d9d9d9;
+    padding: 13px 19px;
+    display: flex;
+    flex-direction: column;
 }
 
 .tag:hover,
 .tag:active {
-  background-color: #deebff;
+    background-color: #deebff;
 }
 ul {
-  position: relative;
-  top: 0%;
+    position: relative;
+    top: 0%;
 }
 
 a {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 700;
+}
+
+.tag > a {
 }
 body > div.main-container > main > div > span > a {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
