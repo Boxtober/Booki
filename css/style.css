@@ -89,7 +89,7 @@ main {
     .populaires-cards a {
         width: 100%;
     }
-    .populaires-cards .card-title {
+    .populaires-cards > p {
         font-size: 14px;
     }
 
