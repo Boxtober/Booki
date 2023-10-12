@@ -99,6 +99,7 @@ main {
 
     .main-tag-container {
         flex-direction: column;
+        align-items: flex-start;
     }
     .activites-cards img {
         height: 200px;
