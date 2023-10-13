@@ -191,6 +191,7 @@ main {
     }
     .hidden-loupe {
         display: flex;
+        cursor: pointer;
     }
     .search-txt {
         display: none;

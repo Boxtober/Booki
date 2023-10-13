@@ -20,6 +20,7 @@
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
+    cursor: pointer;
 }
 .search-button {
     display: flex;
