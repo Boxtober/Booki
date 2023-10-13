@@ -44,6 +44,9 @@
 .search-button:hover {
     background-color: #0056b3;
 }
+#search-form > button.icon-button > i {
+    color: #000;
+}
 #search-form > button > i {
     padding: 15px;
 }

@@ -52,6 +52,7 @@ a {
 }
 
 .tag > a {
+    justify-content: flex-start;
 }
 body > div.main-container > main > div > span > a {
     display: flex;
